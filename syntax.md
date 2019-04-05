@@ -1,5 +1,5 @@
-# scriptid syntax
-Below are some syntax rules for scriptid. This file will be considered pretty volatile until a much more solid definition of proper syntax.
+# Scriptid syntax
+Below are some syntax rules for Scriptid. This file will be considered pretty volatile until a much more solid definition of proper syntax.
 
 ### Basic basics
 Scriptid uses C-style syntax for most things:
@@ -67,13 +67,13 @@ The two following strings are equal to each other.
 ```py
 # "Normal" definition: Text between two quotes. Inline quotes must be escaped with a backslash (\).
 # Newlines must be represented with \n - newlines directly in the string are a syntax error.
-str str1 = "Hello, and welcome to \"scriptid\"! It's *the* scripting language for your bot!";
+str str1 = "Hello, and welcome to \"Scriptid\"! It's *the* scripting language for your bot!";
 
 # Non-escaped definition. Text between two sets of triple quotes (""") separated by newlines. 
 # Any text between the quotes is treated literally, including newlines.
 # The only exception is the backslash (\), which is used to split a long single line into two shorter ones.
 str str2 = """
-Hello, and welcome to "scriptid"! It's *the* \
+Hello, and welcome to "Scriptid"! It's *the* \
 scripting language for your bot!
 """;
 ```
@@ -97,7 +97,7 @@ This will result in the following embed:
 
 
 ### Global variables
-Global variables are variables which are meant to be shared across all your guild's scriptid scripts.
+Global variables are variables which are meant to be shared across all your guild's Scriptid scripts.
 
 They are likely to be used for counting the number of times a command has been run, for example.
 

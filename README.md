@@ -5,7 +5,7 @@ Its initial purpose was to extend the functionality of so-called "custom command
 
 Scriptid is meant to be extendable and eventually support will be implemented to allow other users to add on additional extensions past the base design; in a perfect world, one could, with enough extensions, make a fully functional bot using only their library and scriptid!
 
-To check out the syntax and grammar, feel free to check out the syntax page.
+To check out the syntax and grammar, or at least what there is so far, feel free to check out the [syntax document](syntax.md).
 
 
 ## But wait, why hasn't someone done this already?
